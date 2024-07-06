@@ -1,11 +1,10 @@
-.open-sans-normal{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -50,10 +49,11 @@
 .banner{
     display: flex;
     max-width: 1920px;
-    max-height: 837px;
+    max-height: 900px;
     background-color: #fff8f3;
-    background-image: url("images/developer.png") , url("images/header_bg.png");
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
+    background-position: top left, bottom right;
 
 }
 .opener{
@@ -138,7 +138,7 @@
     max-width: 400px;
 }
 hr{
-    max-width: 400px;
+    margin: 30px 20px;
 }
 .resume-header{
     font-size: 30px;
