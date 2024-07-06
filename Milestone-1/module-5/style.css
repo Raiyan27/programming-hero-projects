@@ -199,18 +199,6 @@
     margin-top: 70px;
     
 }
-.flw{
-    color: rgb(16, 16, 16);
-    font-family: Work Sans;
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 80px;
-    letter-spacing: 0%;
-    border-top: 1px solid rgba(128, 128, 128, 0.534);
-    border-bottom: 1px solid rgba(128, 128, 128, 0.534);
-    opacity: 0.7;
-    padding: 0 auto;
-}
 .bg-img{
     width: 1932px;
     height: 671px;
@@ -254,7 +242,8 @@
     text-align: left;
     opacity: 0.6;
 }
-#last span{
+ .follow{
+    width: 100%;
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 32px;
@@ -263,8 +252,7 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-}
-.border{
     border-top: 1px solid rgba(128, 128, 128, 0.534);
     border-bottom: 1px solid rgba(128, 128, 128, 0.534);
-}
+    width: 100%;
+ }
